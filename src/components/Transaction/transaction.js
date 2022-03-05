@@ -18,7 +18,6 @@ function Transaction() {
   },[])
 
   function PutAPICall(vaa){
-    console.log(vaa)
     const requestOptions = {
         method: 'PUT',
         headers: { 'Content-Type': 'application/json' },
@@ -36,7 +35,6 @@ document.addEventListener('click',LLKK);
         for (let i=0; i < orders.length;i++){
           if (orders[i]["medName"]==e.target.id){
             let qqty = orders[i]["quantity"] + cart["cartItemsNumber"]
-            console.log(orders[i]["quantity"])
             PutAPICall(qqty);
             window.location.reload();
             break;
@@ -57,12 +55,12 @@ document.addEventListener('click',LLKK);
 
 
     <div className='transactions'>
-    <a href="http://3.236.11.63/orders" ><div className="search-orders">
+    <a href="http://3.236.86.40/orders" ><div className="search-orders">
       <a href="" class="btn btn-primary disabled" role="button" aria-disabled="true">Search</a>
     </div></a>
     <div className='topSection'>
     <h3 class="title"> Previous Orders</h3>
-    <a href="http://3.229.117.214/order"><button type="button" class="btn btn-hp btn-secondary disabled"name="Add">    Add   </button></a>
+    <a href="http://3.236.86.40/orders"><button type="button" class="btn btn-hp btn-secondary disabled"name="Add">    Add   </button></a>
     </div>
     { dataArray != 0 && <section>
     <table class="table" >

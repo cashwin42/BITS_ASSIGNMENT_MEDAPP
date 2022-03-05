@@ -18,7 +18,6 @@ function Order(prop) {
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ id:1,"cartItemsNumber":vaa })
     };
-    console.log(cart["cartItemsNumber"])
       const url = "cart/1";
       fetch(url,requestOptions)
       alert("your products have been added to cart !")
