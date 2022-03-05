@@ -1,0 +1,11 @@
+.reorder-button {
+  width: 70px;
+  height: 25px;
+  background-color: lightblue;
+}
+
+.button-col{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

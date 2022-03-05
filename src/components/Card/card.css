@@ -1,0 +1,82 @@
+.card{
+  margin: 15px;
+  width: 18rem;
+  background-color: #d5ecf5;
+  height: 23rem;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card-title{
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.card-pricription{
+  font-size: 1rem;
+  text-align: left;
+  margin: 7px;
+}
+
+.card-stock{
+  font-size: 1rem;
+  text-align: left;
+  margin: 7px;
+}
+
+.card-price{
+  font-size: 1rem;
+  text-align: left;
+  margin: 7px;
+}
+
+.order-qty-button{
+  width: 50px;
+  margin-left: 20px;
+  margin-right: auto;
+  font-size: 14px;
+}
+
+.button-order{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.plus,.minus{
+  width: 30px;
+  height: 20px;
+  background-color: white;
+  color: blue;
+  font-size: .75rem;
+  border-color: #60C474;
+  border-style: solid;
+  text-align: center;
+
+}
+
+.orderQty{
+  display: flex;
+
+}
+
+.pricription-question{
+  font-size: .75rem;
+  margin: 5px;
+}
+
+.pricription-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p-button{
+  margin-right: auto;
+  padding: 5px;
+}
+
+.check-box{
+  margin-right: auto;
+}

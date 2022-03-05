@@ -1,0 +1,29 @@
+th{
+  text-align: center;
+    vertical-align: middle;
+}
+
+.home{
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+.topSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-hp{
+  width: 100px;
+  height: 30px;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title{
+  margin-right: auto;
+}
