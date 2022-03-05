@@ -60,7 +60,7 @@ document.addEventListener('click',LLKK);
     </div></a>
     <div className='topSection'>
     <h3 class="title"> Previous Orders</h3>
-    <a href="http://3.236.86.40/orders"><button type="button" class="btn btn-hp btn-secondary disabled"name="Add">    Add   </button></a>
+    <a href="http://3.229.117.214/order"><button type="button" class="btn btn-hp btn-secondary disabled"name="Add">    Add   </button></a>
     </div>
     { dataArray != 0 && <section>
     <table class="table" >

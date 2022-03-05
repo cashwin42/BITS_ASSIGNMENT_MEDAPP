@@ -1,5 +1,5 @@
 import Navigation from "./components/Navigation/Navigation.js"
-import Order from "./Order"
+import Order from "./components/Orders/Order"
 import FileUpload from "./components/FileUpload/FileUpload"
 import Transaction from "./components/Transaction/transaction"
 import React from "react"

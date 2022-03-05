@@ -1,6 +1,5 @@
 import "./card.css"
 import React from "react"// XXX:
-import data from "../../data/meds.json"
 import {useState} from 'react'
 
 

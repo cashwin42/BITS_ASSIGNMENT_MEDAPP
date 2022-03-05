@@ -1,6 +1,5 @@
 import Navigation from "./components/Navigation/Navigation.js"
 import Dashboard from "./components/DashBoard/DashBoard"
-import data from "./data/transactions.js"
 import "./homepage.css"
 import React,{useEffect,useState} from 'react'
 

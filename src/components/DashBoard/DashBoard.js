@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './dashboard.css';
-import data from "../../data/transactions.js"
 
 export default function Dashboard(props){
 
